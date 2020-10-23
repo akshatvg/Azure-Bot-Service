@@ -1,40 +1,67 @@
-# Repo Name
+# Azure Bot Service
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/<Repo>?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/<Repo>?style=social)](https://github.com/akshatvg/<Repo>/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/<Repo>/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Azure-Bot-Service?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Azure-Bot-Service?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Azure-Bot-Service?style=social)](https://github.com/akshatvg/Azure-Bot-Service/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Azure-Bot-Service?style=social&logo=git)](https://github.com/akshatvg/Azure-Bot-Service/network)
 
-Project description comes here.
+Learning how to make a Flight Booking chatbot using the Azure Bot Service.
 
 <p align="center">
-<a href="#!">
-<img src="https://github.com/akshatvg/<Repo>/blob/master/Assets/app-icon-64%402x.png" width="120px" height="120px" alt="<Repo> Logo"/>
+<a href="http://akshatvg-shopping-bot.azurewebsites.net/api/messages">
+<img src="https://azure.microsoft.com/svghandler/bot-service?width=600&height=315" height="120px" alt="Azure-Bot-Service Logo"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/Random-Swag-orange) 
+![Generic badge](https://img.shields.io/badge/Flight_Booking-Bot-orange) 
 
-#### Link for [demo](#!) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](#!)
+## API Link
 
-## Useful Links
-
-- [Actual Website](#!)
+- [http://akshatvg-shopping-bot.azurewebsites.net/api/messages](htts://akshatvg-shopping-bot.azurewebsites.net/api/messages)
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/<Repo>?logo=javascript&style=social)](https://github.com/akshatvg/)
+[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Azure-Bot-Service?logo=javascript&style=social)](https://github.com/akshatvg/)
 
-The source code of this project is written in **`HTML/CSS/JS`**. So, you do not require anything extra to run this project.
+The source code of this project is written in **`Node.js`**. So, you will require Node.js to run the project.
 
 ## Instructions
+- Install modules
 
-[![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
+    ```bash
+    npm install
+    ```
+- Run the bot
 
-Extract the folder and run `index.html`
+    ```bash
+    npm start
+    ```
 
+## Testing the bot using Bot Framework Emulator
+
+[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
+
+- Install the Bot Framework Emulator version 4.9.0 or greater from [here](https://github.com/Microsoft/BotFramework-Emulator/releases)
+
+### Connect to the bot using Bot Framework Emulator
+
+- Launch Bot Framework Emulator
+- File -> Open Bot
+- Enter a Bot URL of `http://localhost:3978/api/messages`
+
+## Links to Refer
+- [Bot Framework Documentation](https://docs.botframework.com)
+- [Bot Basics](https://docs.microsoft.com/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
+- [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
+- [Gathering Input Using Prompts](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-prompts?view=azure-bot-service-4.0&tabs=javascript)
+- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
+- [Azure Bot Service Introduction](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
+- [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)
+- [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
+- [Azure Portal](https://portal.azure.com)
+- [Language Understanding using LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/)
+- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+- [Restify](https://www.npmjs.com/package/restify)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Need help?
-
-
 Feel free to contact me via [Facebook](https://www.facebook.com/akshatvg).
 
 Invite me to connect on [LinkedIn](https://www.linkedin.com/in/akshatvg/).
@@ -78,9 +105,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/<Repo>/blob/master/LICENSE)**
+**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/Azure-Bot-Service/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/<Repo>?style=social&logo=github)](https://github.com/akshatvg/<Repo>/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/akshatvg/Azure-Bot-Service?style=social&logo=github)](https://github.com/akshatvg/Azure-Bot-Service/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
 
 ---------
 
