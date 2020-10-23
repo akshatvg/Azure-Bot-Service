@@ -14,7 +14,7 @@ Learning how to make a Flight Booking chatbot using the Azure Bot Service.
 
 ## API Link
 
-- [http://akshatvg-shopping-bot.azurewebsites.net/api/messages](htts://akshatvg-shopping-bot.azurewebsites.net/api/messages)
+- [https://akshatvg-shopping-bot.azurewebsites.net/api/messages](https://akshatvg-shopping-bot.azurewebsites.net/api/messages)
 
 ## Requirements
 
