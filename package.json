@@ -25,7 +25,7 @@
     "botbuilder-testing": "~4.10.3",
     "dotenv": "^8.2.0",
     "restify": "~8.5.1",
-    "snyk": "^1.424.4"
+    "snyk": "^1.425.4"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
